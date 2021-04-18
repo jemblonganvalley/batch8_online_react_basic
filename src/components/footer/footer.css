@@ -1,0 +1,12 @@
+.footer {
+  width: 100vw;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: black;
+  color: whitesmoke;
+  user-select: none;
+  cursor: pointer;
+}

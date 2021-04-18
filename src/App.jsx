@@ -1,12 +1,14 @@
 import "./App.css";
 import Navbar from "./components/navbar/Navbar";
+import Content from "./components/content/Content";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-
-      <h1 className="judul">hello</h1>
+      <Content />
+      <Footer />
     </div>
   );
 }

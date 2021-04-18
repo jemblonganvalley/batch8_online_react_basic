@@ -4,7 +4,7 @@
   min-height: 100vh;
 }
 
-.flex-start {
+.flex-center {
   display: flex;
   justify-content: center;
   align-items: center;

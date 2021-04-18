@@ -4,7 +4,7 @@ import "./content.css";
 function Content() {
   return (
     <main className="container-fluid flex-center">
-      <h1>Hello saya content</h1>
+      <h1>Hello saya fadliselaz</h1>
     </main>
   );
 }
