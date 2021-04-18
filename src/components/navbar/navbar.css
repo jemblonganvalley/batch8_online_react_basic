@@ -1,0 +1,46 @@
+.navbar {
+  width: 100vw;
+  height: 70px;
+  background-color: black;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 40px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.brand {
+  font-size: 2.4rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  text-transform: uppercase;
+  width: 30%;
+  /* border: 1px solid red; */
+  height: 100%;
+  align-items: center;
+  padding: 0;
+  margin-left: auto;
+}
+
+.menu_item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* border: 1px solid blue; */
+  /* transition-delay: 0.2s; */
+  transition-duration: 0.5s;
+}
+
+.menu_item:hover {
+  background-color: orange;
+  color: black;
+}
